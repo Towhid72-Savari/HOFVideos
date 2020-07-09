@@ -1,3 +1,6 @@
 from django.contrib import admin
+from halls import models
 
-# Register your models here.
+
+admin.site.register(models.Hall)
+admin.site.register(models.Video)

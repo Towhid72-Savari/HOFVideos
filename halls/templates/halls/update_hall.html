@@ -1,0 +1,14 @@
+{% extends 'halls/base.html' %}
+{% block content %}
+
+    <div class="container">
+        <h4>Update your Hall</h4>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input value="Update" type="submit" class="btn btn-primary">
+        </form>
+        <a class="btn btn-danger" href="{% url 'delete_hall' hall.id %}">Delete</a>
+    </div>
+
+{% endblock %}
