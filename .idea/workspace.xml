@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74459083-8fb7-4d49-99f3-eceb3831d859" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HallOfFameVideos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HallOfFameVideos/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/add_video.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/add_video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/create_hall.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/create_hall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/delete_hall.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/delete_hall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/detailed_hall.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/detailed_hall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/halls/update_hall.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/halls/update_hall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/halls/templates/registration/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/halls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/halls/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="74459083-8fb7-4d49-99f3-eceb3831d859" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594188431496</updated>
       <workItem from="1594188441435" duration="34837000" />
-      <workItem from="1594357786324" duration="9411000" />
+      <workItem from="1594357786324" duration="9790000" />
     </task>
     <servers />
   </component>
