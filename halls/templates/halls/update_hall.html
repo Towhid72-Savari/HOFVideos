@@ -2,13 +2,24 @@
 {% block content %}
 
     <div class="container">
-        <h4>Update your Hall</h4>
+        <h4 class="mt-4">Update your Hall</h4>
         <form method="post">
             {% csrf_token %}
-            {{ form.as_p }}
+            {% load widget_tweaks %}
+
+            {% for field in form %}
+
+                <div class="form-group {% if form.errors %} alert alert-danger {% endif %} ">
+                    {{ field.errors }}
+                    {{ field.label_tag }}
+                    {% render_field field class='form-control' %}
+                </div>
+
+            {% endfor %}
             <input value="Update" type="submit" class="btn btn-primary">
+        <a class="btn btn-danger" href="{% url 'halls:delete_hall' hall.id %}">Delete</a>
         </form>
-        <a class="btn btn-danger" href="{% url 'delete_hall' hall.id %}">Delete</a>
+
     </div>
 
 {% endblock %}
